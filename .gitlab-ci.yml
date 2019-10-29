@@ -1,0 +1,6 @@
+Build:
+  only:
+    - master
+  script:
+    - npm install --no-optional && npm run build
+    - sudo rsync -a --delete dist/ /var/www/html/dev

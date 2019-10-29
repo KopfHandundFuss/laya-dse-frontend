@@ -1,0 +1,6 @@
+export { default as de } from './de.js'
+export { default as en } from './en.js'
+export { default as es } from './es.js'
+export { default as it } from './it.js'
+export { default as pl } from './pl.js'
+export { default as nl } from './nl.js'
